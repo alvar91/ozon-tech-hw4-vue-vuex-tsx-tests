@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderNav.vue should correctly renders markup 1`] = `
+<nav>
+  <ul class="nav__list">
+    <li class="nav__item"><a href="/" aria-current="page" class="router-link-exact-active nav__link--active nav__link">Все</a></li>
+    <li class="nav__item"><a href="/waiting" class="nav__link">Ожидают загрузки</a></li>
+    <li class="nav__item"><a href="/loaded" class="nav__link">Загружены кандидатом</a></li>
+  </ul>
+</nav>
+`;

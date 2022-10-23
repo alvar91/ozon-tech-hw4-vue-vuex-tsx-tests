@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputRadio.vue should correctly renders markup with default props 1`] = `<span class="card__field"><span class="card__title">Пол</span><span class="card__label-container"><label tabindex="0" class="card__radio">Мужской<input type="radio" name="gender" class="card__input-radio" value="Мужской"><span class="card__checkmark"></span></label><label tabindex="0" class="card__radio">Женский<input type="radio" name="gender" class="card__input-radio" value="Женский"><span class="card__checkmark"></span></label></span></span>`;

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputText.vue should correctly renders markup with default props 1`] = `<label class="card__field"><span class="card__title">Фамилия</span><input type="text" name="middleName" placeholder="Фамилия" class="card__input"></label>`;

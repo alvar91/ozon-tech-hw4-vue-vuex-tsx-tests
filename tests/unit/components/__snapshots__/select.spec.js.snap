@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select.vue should correctly renders markup with default props 1`] = `
+<label class="card__field"><span class="card__title">Гражданство</span><select name="citizenship" class="card__select card__select--arrow">
+    <option value="Грузия">Грузия</option>
+    <option value="США">США</option>
+    <option value="Российская Федерация">Российская Федерация</option>
+    <option value="Украина">Украина</option>
+    <option value="Беларусь">Беларусь</option>
+    <option value="Казахстан">Казахстан</option>
+  </select></label>
+`;

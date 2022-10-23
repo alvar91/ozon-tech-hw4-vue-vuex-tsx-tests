@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainView.vue without users should correctly renders markup when users not loaded 1`] = `
+<div>
+  <header class="header">
+    <div class="container">
+      <div class="header__group"><a href="/" aria-current="page" class="router-link-exact-active router-link-active header__logo" aria-label="Логотип сайта"><img src="" alt="Логотип сайта"></a><button class="header__logout">Выйти</button></div>
+      <nav>
+        <ul class="nav__list">
+          <li class="nav__item"><a href="/" aria-current="page" class="router-link-exact-active nav__link--active nav__link">Все</a></li>
+          <li class="nav__item"><a href="/waiting" class="nav__link">Ожидают загрузки</a></li>
+          <li class="nav__item"><a href="/loaded" class="nav__link">Загружены кандидатом</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="main-container">
+    <div>Загрузка данных, подождите...</div>
+  </div>
+</div>
+`;

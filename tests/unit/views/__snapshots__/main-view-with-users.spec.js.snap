@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainView.vue with users should correctly renders markup when users loaded 1`] = `
+<div>
+  <header class="header">
+    <div class="container">
+      <div class="header__group"><a href="/" aria-current="page" class="router-link-exact-active router-link-active header__logo" aria-label="Логотип сайта"><img src="" alt="Логотип сайта"></a><button class="header__logout">Выйти</button></div>
+      <nav>
+        <ul class="nav__list">
+          <li class="nav__item"><a href="/" aria-current="page" class="router-link-exact-active nav__link--active nav__link">Все</a></li>
+          <li class="nav__item"><a href="/waiting" class="nav__link">Ожидают загрузки</a></li>
+          <li class="nav__item"><a href="/loaded" class="nav__link">Загружены кандидатом</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="main-container">
+    <aside class="aside">
+      <form action="#" class="aside__form">
+        <fieldset class="aside__fieldset"><button type="submit" aria-label="Поиск по сайту" class="aside__search"></button><input type="search" name="search" placeholder="Поиск" class="aside__input"></fieldset><button type="button" aria-label="Фильтр поиска" class="aside__filter"></button>
+      </form>
+      <ul class="aside__list">
+        <li data-id="7add8d25-727b-4db4-bc0f-decd057c0c25" class="aside__item"><a href="#" class="aside__user-link">Агафонов Михаил Дмитриевич</a>
+          <div class="aside__status"><button class="aside__user-status aside__user-status--active">Загружена кандидатом</button><time datetime="2020-07-21T10:11:08-03:00" class="aside__user-date">21.07.2020</time></div>
+        </li>
+        <li data-id="e96baf2b-a4c6-4a18-a376-b7589e2b053e" class="aside__item"><a href="#" class="aside__user-link">Гончаров Владислав Александрович</a>
+          <div class="aside__status"><button class="aside__user-status aside__user-status--inactive">Ожидают загрузки</button><time datetime="2022-02-28T10:55:31-03:00" class="aside__user-date">28.02.2022</time></div>
+        </li>
+        <li data-id="b288f6b6-1bd9-4a1b-9a34-012e29b3a273" class="aside__item"><a href="#" class="aside__user-link">Орлов Николай Константинович</a>
+          <div class="aside__status"><button class="aside__user-status aside__user-status--inactive">Ожидают загрузки</button><time datetime="2021-09-15T05:34:50-03:00" class="aside__user-date">15.09.2021</time></div>
+        </li>
+        <li data-id="99ec59ba-cd5f-4392-b3eb-248f97346b9c" class="aside__item"><a href="#" class="aside__user-link">Виноградов Михаил Владиславович</a>
+          <div class="aside__status"><button class="aside__user-status aside__user-status--active">Загружена кандидатом</button><time datetime="2019-10-29T06:20:07-03:00" class="aside__user-date">29.10.2019</time></div>
+        </li>
+        <li data-id="659d9e5c-5bd4-45d3-9da8-a7ac5a2586ba" class="aside__item"><a href="#" class="aside__user-link">Жукова Анастасия Александровна</a>
+          <div class="aside__status"><button class="aside__user-status aside__user-status--active">Загружена кандидатом</button><time datetime="2020-06-21T11:57:46-03:00" class="aside__user-date">21.06.2020</time></div>
+        </li>
+        <li data-id="3d3e4338-5ecd-4a22-9e8a-7b698b3cfa8c" class="aside__item"><a href="#" class="aside__user-link">Жукова Екатерина Константиновна</a>
+          <div class="aside__status"><button class="aside__user-status aside__user-status--active">Загружена кандидатом</button><time datetime="2020-06-19T12:29:52-03:00" class="aside__user-date">19.06.2020</time></div>
+        </li>
+        <li data-id="422aeaaa-d5df-48a6-8d67-30dd9ce09196" class="aside__item"><a href="#" class="aside__user-link">Агафонов Василий Петрович</a>
+          <div class="aside__status"><button class="aside__user-status aside__user-status--active">Загружена кандидатом</button><time datetime="2019-09-02T05:02:29-03:00" class="aside__user-date">02.09.2019</time></div>
+        </li>
+        <li data-id="b8898728-b999-40f5-a713-fcdb595b7da0" class="aside__item"><a href="#" class="aside__user-link">Гончаров Александр Константинович</a>
+          <div class="aside__status"><button class="aside__user-status aside__user-status--active">Загружена кандидатом</button><time datetime="2022-10-20T05:31:20-03:00" class="aside__user-date">20.10.2022</time></div>
+        </li>
+        <li data-id="019bb508-d222-4524-b93d-5365b10202a8" class="aside__item"><a href="#" class="aside__user-link">Воробьева Евангелина Геннадьевна</a>
+          <div class="aside__status"><button class="aside__user-status aside__user-status--inactive">Ожидают загрузки</button><time datetime="2019-07-25T09:17:08-03:00" class="aside__user-date">25.07.2019</time></div>
+        </li>
+        <li data-id="0f2609f8-5aed-46b6-ad14-7d4079842824" class="aside__item"><a href="#" class="aside__user-link">Агафонов Михаил Александрович</a>
+          <div class="aside__status"><button class="aside__user-status aside__user-status--inactive">Ожидают загрузки</button><time datetime="2019-01-22T09:47:04-03:00" class="aside__user-date">22.01.2019</time></div>
+        </li>
+      </ul>
+    </aside>
+    <main class="main">
+      <section class="card">
+        <article class="card__about">
+          <h2 class="card__name">Агафонов Михаил Дмитриевич</h2><button class="card__user-status card__user-status--active">Загружена кандидатом</button>
+        </article>
+        <article class="card__data">
+          <ul class="card__list">
+            <li class="card__list-item">
+              <ul class="card__sub-list">
+                <li class="card__item"><span class="card__label">Заявка:</span><span class="card__label">Логин:</span></li>
+                <li class="card__item"><span class="card__label">HR-48963</span><span class="card__label">mdagafonov</span></li>
+              </ul>
+            </li>
+            <li class="card__list-item">
+              <ul class="card__sub-list">
+                <li class="card__item"><span class="card__label">Дата выхода:</span><span class="card__label">Дата оформления:</span></li>
+                <li class="card__item"><time datetime="2020-08-03T08:54:38-03:00" class="card__date">03.08.2020</time><time datetime="2020-07-21T10:11:08-03:00" class="card__date">21.07.2020</time></li>
+              </ul>
+            </li>
+            <li class="card__list-item">
+              <ul class="card__sub-list">
+                <li class="card__item"><span class="card__label">Статус ФП:</span><span class="card__label">Статус УЗ:</span></li>
+                <li class="card__item"><span class="card__status card__status--active">Активна</span><span class="card__status card__status--success">Активна</span></li>
+              </ul>
+            </li>
+          </ul>
+        </article>
+        <article class="card__detailed">
+          <h3 class="card__personal">Личная информация</h3>
+          <form action="#" class="card__form"><label class="card__field"><span class="card__title">Фамилия</span><input type="text" name="middleName" placeholder="Фамилия" class="card__input"></label><label class="card__field"><span class="card__title">Имя</span><input type="text" name="firstName" placeholder="Имя" class="card__input"></label><label class="card__field"><span class="card__title">Отчество</span><input type="text" name="lastName" placeholder="Отчество" class="card__input"></label><label class="card__field"><span class="card__title">Дата рождения</span><input type="date" name="age" min="1900-01-01" class="card__input card__input--date"></label><label class="card__field"><span class="card__title">Гражданство</span><select name="citizenship" class="card__select card__select--arrow">
+                <option value="Грузия">Грузия</option>
+                <option value="США">США</option>
+                <option value="Российская Федерация">Российская Федерация</option>
+                <option value="Украина">Украина</option>
+                <option value="Беларусь">Беларусь</option>
+                <option value="Казахстан">Казахстан</option>
+              </select></label><span class="card__field"><span class="card__title">Пол</span><span class="card__label-container"><label tabindex="0" class="card__radio">Мужской<input type="radio" name="gender" class="card__input-radio" value="Мужской"><span class="card__checkmark"></span></label><label tabindex="0" class="card__radio">Женский<input type="radio" name="gender" class="card__input-radio" value="Женский"><span class="card__checkmark"></span></label></span></span><label class="card__field card__field--wide card__field--disabled"><span class="card__title">Город проживания</span><input type="text" name="city" placeholder="Город проживания" disabled="disabled" class="card__input"></label></form>
+        </article>
+      </section>
+    </main>
+  </div>
+</div>
+`;

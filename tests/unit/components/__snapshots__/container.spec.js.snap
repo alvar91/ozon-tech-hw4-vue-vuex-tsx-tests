@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container.vue should correctly renders markup 1`] = `<div class="container">test-content</div>`;

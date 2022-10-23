@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputDate.vue should correctly renders markup with default props 1`] = `<label class="card__field"><span class="card__title">Дата рождения</span><input type="date" name="age" min="1900-01-01" class="card__input card__input--date"></label>`;
